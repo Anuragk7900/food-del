@@ -53,7 +53,7 @@ const PlaceOrder = () => {
   const navigate = useNavigate();
   useEffect(() => {
     if (token) {
-      navigate("/cart");
+      navigate("/order");
       
     } else if (getTotalCartAmount === 0) {
       navigate("/cart");
